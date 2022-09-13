@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Fagylalt</title>
 
 </head>
-<body>
-    <header>
-        
+<body class="oldal">
+    <header class="fofej">
+        <ul id="fejlec">
+            <li id="menu"><a href="#bemutatas">Bemutatása</a></li>
+            <li id="menu"><a href="#tortenete">Története</a></li>
+            <li id="menu"><a href="">Contact</a></li>
+        </ul>
     </header>
 
-    <div class="Bemutatas">
-        <h1 class="kiiras">Bemutatása</h1>
+    
+
+    <div class="szekcio">
+        <h1 class="kiiras" id="bemutatas">Bemutatása</h1>
 
        <div>
             <h3>Jellemzői</h3>
@@ -21,12 +29,19 @@
             <p>Házilag is elkészíthető, üvegkehelyből vagy ostyából készült fagylalttölcsérből is fogyasztható, díszítésként gyümölcsöt, ostyát, különféle gyümölcsszirupokat, csokoládét és csokoládészirupot stb. használnak.</p>
          </div>
         
-        <div>
+        <div class="container" id="elkeszites">
             <h3>Elkészítés</h3>
-            <p>A fagylaltot régen kézi hajtású fagylaltgéppel készítették, egy konyhasóból és jégből álló hűtőkeverékkel bélelt tartályban forgott egy kisebb, ebben keveredett a massza. A kész fagylaltot is jéggel tartották hidegen.</p>
-            <p>Napjainkban már a technologia segítségével sokkal, egyszerűbb az elkészítése, most már nem telik órákba a fagylalt készítés, pár perc</p>
-            <img src="gep.jpg" alt="Fagylalt készítő gépek">
-            
+            <div class="row">  
+                <div class="col-md-6" id="elso">
+                    <p>A fagylaltot régen kézi hajtású fagylaltgéppel készítették, egy konyhasóból és jégből álló hűtőkeverékkel bélelt tartályban forgott egy kisebb, ebben keveredett a massza. A kész fagylaltot is jéggel tartották hidegen.</p>
+                    <p>Napjainkban már a technologia segítségével sokkal, egyszerűbb az elkészítése, most már nem telik órákba a fagylalt készítés, pár perc</p>
+                </div>
+
+                <div class="col-md-6" >
+                     <img src="gep.jpg" alt="Fagylalt készítő gépek" id ="kep">
+                </div>
+               
+          </div>  
         </div>
 
         <div>
@@ -38,8 +53,8 @@
 
     </div>
 
-    <div>
-        <h2 class="kiirás">Története</h2>
+    <div class="szekcio">
+        <h1 class="kiirás" id="tortenete">Története</h1>
 
         <div>
             <h3>Feltalálás</h3>
@@ -81,8 +96,21 @@
 
 
     <div>
-        <footer>
-
+        <footer class="lablec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="lab">Jung Katalin</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="lab">14/T</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="lab">2022-09-13</h3>
+                    </div>
+            
+        </div>
+        </div>
         </footer>
     </div>
 </body>
