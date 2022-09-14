@@ -92,8 +92,30 @@ border-color: azure;
 #elkeszites{
     background-color: bisque;
     border-radius: 30px;
+    
 }
 p{
     color: black;
 }
 
+#masodik{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.tapertek{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+#fagylalt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
