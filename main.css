@@ -11,30 +11,31 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: skyblue;
+    
 }
- 
-
-
 #menu{
     float: left;
     justify-content: center;
     text-align: center;
-
+    
 }
 li a {
     display: block;
     padding: 12px;
     font-size: larger;
     font-weight: bold;
+    color: antiquewhite;
+   
+    
 }
 
 a:link{
     text-decoration: none;
     cursor: hand;
+    
 }
 a:hover{
-    color: crimson;
+   
     border: none;
     text-decoration: underline;
 }
@@ -44,7 +45,7 @@ a:hover{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: skyblue;
+    
 }
 h3 {
     display: block;
@@ -72,30 +73,42 @@ h1{
     line-height: 200%;
 }
 #kep{
-    width: 350px;
+width: 350px;
   border: 5px;
   border-right: 5px;
   border-color: azure;
   border-style: solid;
   border-radius: 5px;
   margin-left: auto;
-margin-right: auto;
-display: block;
-  ;
+  margin-right: auto;
+  display: block;
+  max-height: 280px
+ 
 }
 #elso{
-border: 5px;
+
+border-right-color:black;
+border: 2px;
 border-style: solid;
-border-radius: 15px;
-border-color: azure;
+border-left-color: bisque;
+border-top-color: bisque;
+border-bottom-color:bisque;
+margin-bottom: 35px;
+
+
+
 }
 #elkeszites{
     background-color: bisque;
-    border-radius: 30px;
+    border-radius: 15px;
     
 }
 p{
     color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #masodik{
@@ -103,19 +116,39 @@ p{
     justify-content: center;
     align-items: center;
     display: flex;
+    border: 2px; 
+    border-style: solid;
+    border-right-color:bisque;
+    border-left-color: black;
+    border-top-color: bisque;
+    border-bottom-color:bisque;
+    margin-bottom: 35px;
+
+
 
 }
 
-.tapertek{
-    justify-content: center;
+
+.fofej{
     text-align: center;
+    justify-content: center;
     align-items: center;
     display: flex;
+    background-color: chocolate;
+}
+
+#tapertekek{
+    background-color: bisque;
+    border-radius: 15px;
     
 }
-#fagylalt{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+h3{
+    text-decoration: underline;
+}
+
+#jellemzoi{
+    background-color: bisque;
+    border-radius: 15px;
+    
+    
 }
